@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/dfrsol/csdb",
   "devDependencies": {
-    "bourbon": "^4.2.7",
-    "bourbon-neat": "^1.7.4",
     "gulp": "^3.9.0",
-    "gulp-sass": "^2.1.0"
+    "gulp-sass": "^2.1.0",
+    "node-bourbon": "^4.2.8",
+    "node-neat": "^1.7.2"
   },
   "dependencies": {
     "express": "^4.13.3",
