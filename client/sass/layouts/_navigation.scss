@@ -1,0 +1,15 @@
+header {
+  background-color: $dark-blue;
+  padding: 40px 0;
+  margin-bottom: 40px;
+  color: $white;
+
+  h1 {
+    font-size: em(24);
+    margin:0;
+    padding: 0;
+    span {
+      color: $yellow;
+    }
+  }
+}

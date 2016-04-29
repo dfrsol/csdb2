@@ -1,0 +1,23 @@
+.db__search {
+  @include span-columns(12);
+  margin-bottom: 40px;
+
+  form {
+    @include span-columns(8);
+  }
+
+  input {
+    background-color: lighten($black, 2);
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: $yellow;
+    padding: 20px;
+  }
+
+  &__instructions {
+    color: $medium-blue;
+    font-size: em(13);
+  }
+}

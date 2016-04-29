@@ -1,0 +1,30 @@
+{
+  "name": "youred",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfrsol/csdb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dfrsol/csdb/issues"
+  },
+  "homepage": "https://github.com/dfrsol/csdb",
+  "devDependencies": {
+    "bourbon": "^4.2.7",
+    "bourbon-neat": "^1.7.4",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.0"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
