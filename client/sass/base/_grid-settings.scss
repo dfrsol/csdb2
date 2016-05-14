@@ -4,7 +4,7 @@
 $column: 90px;
 $gutter: 20px;
 $grid-columns: 12;
-$max-width: 1280px;
+$max-width: 1300px;
 
 $first-breakpoint-value: 400px;
 $second-breakpoint-value: 700px;
@@ -16,7 +16,7 @@ $medium-screen: new-breakpoint(min-width em($first-breakpoint-value) max-width e
 $large-screen: new-breakpoint(min-width em($second-breakpoint-value + 1) max-width em($third-breakpoint-value - 1) 8);
 $xl-screen: new-breakpoint(min-width em($third-breakpoint-value));
 
-$visual-grid: false;
+$visual-grid: true;
 $visual-grid-color: white;
 $visual-grid-index: front;
 $visual-grid-opacity: 0.1;
