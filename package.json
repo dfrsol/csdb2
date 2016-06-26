@@ -19,6 +19,7 @@
   "homepage": "https://github.com/dfrsol/csdb",
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.2.2",
     "gulp-sass": "^2.1.0",
     "node-bourbon": "^4.2.8",
     "node-neat": "^1.7.2"

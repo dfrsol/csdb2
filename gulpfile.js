@@ -1,5 +1,5 @@
 var gulp = require("gulp");
-var sass = require('gulp-sass');
+var plugins = require("gulp-load-plugins");
 var neat = require('node-neat').includePaths;
 var bourbon = require('node-bourbon').includePaths;
 
@@ -10,11 +10,11 @@ const paths = {
 
 gulp.task('styles', function() {
     gulp.src(paths.scss)
-        .pipe(sass({
+        .pipe(plugins.sass({
             includePaths: bourbon,
             includePaths: neat
         }))
-        .pipe(sass().on('error', sass.logError))
+        .pipe(plugins.sass().on('error', sass.logError))
         .pipe(gulp.dest('./client/css'));
 });
 
